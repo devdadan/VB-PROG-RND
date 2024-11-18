@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Syncfusion.Blazor.ProgressBar.26.2.11\build\Syncfusion.Blazor.ProgressBar.props" Condition="Exists('packages\Syncfusion.Blazor.ProgressBar.26.2.11\build\Syncfusion.Blazor.ProgressBar.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4113464-71AA-436C-9A6C-4B2F12393EF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProgRND.My.MyApplication</StartupObject>
+    <RootNamespace>ProgRND</RootNamespace>
+    <AssemblyName>ProgRND</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProgRND.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProgRND.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-apps-100.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\FILE_UPD_MAKER\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\blnprogram\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\ZipDTO\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="REG.Fungsi">
+      <HintPath>..\REG2.Fungsi\REG.Fungsi\bin\Debug\REG.Fungsi.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsApps.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formbarcode.Designer.vb">
+      <DependentUpon>Formbarcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formbarcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdecryptpos.Designer.vb">
+      <DependentUpon>Formdecryptpos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formdecryptpos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKurir.Designer.vb">
+      <DependentUpon>FormKurir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormKurir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formposrt.Designer.vb">
+      <DependentUpon>Formposrt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formposrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formpscp.Designer.vb">
+      <DependentUpon>Formpscp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formpscp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formtanya.Designer.vb">
+      <DependentUpon>Formtanya.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formtanya.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmbukapass.Designer.vb">
+      <DependentUpon>Frmbukapass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmbukapass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDATA.Designer.vb">
+      <DependentUpon>FrmDATA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDATA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmftp.Designer.vb">
+      <DependentUpon>Frmftp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmftp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.vb">
+      <DependentUpon>FrmHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIP.Designer.vb">
+      <DependentUpon>FrmIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessage.Designer.vb">
+      <DependentUpon>FrmMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmotp.Designer.vb">
+      <DependentUpon>Frmotp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmotp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpass.Designer.vb">
+      <DependentUpon>Frmpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmpass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgram.Designer.vb">
+      <DependentUpon>FrmProgram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProgram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTembak.Designer.vb">
+      <DependentUpon>FrmTembak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTembak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmutama.Designer.vb">
+      <DependentUpon>Frmutama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmutama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCDelete.Designer.vb">
+      <DependentUpon>UCDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCDelete.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCFTP.Designer.vb">
+      <DependentUpon>UCFTP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCFTP.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSTBupload.Designer.vb">
+      <DependentUpon>UCSTBupload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCSTBupload.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTembakSQL.Designer.vb">
+      <DependentUpon>UCTembakSQL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCTembakSQL.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formbarcode.resx">
+      <DependentUpon>Formbarcode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formdecryptpos.resx">
+      <DependentUpon>Formdecryptpos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKurir.resx">
+      <DependentUpon>FormKurir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formposrt.resx">
+      <DependentUpon>Formposrt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formpscp.resx">
+      <DependentUpon>Formpscp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formtanya.resx">
+      <DependentUpon>Formtanya.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmbukapass.resx">
+      <DependentUpon>Frmbukapass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDATA.resx">
+      <DependentUpon>FrmDATA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmftp.resx">
+      <DependentUpon>Frmftp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHome.resx">
+      <DependentUpon>FrmHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIP.resx">
+      <DependentUpon>FrmIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMessage.resx">
+      <DependentUpon>FrmMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmotp.resx">
+      <DependentUpon>Frmotp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpass.resx">
+      <DependentUpon>Frmpass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgram.resx">
+      <DependentUpon>FrmProgram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTembak.resx">
+      <DependentUpon>FrmTembak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmutama.resx">
+      <DependentUpon>Frmutama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDelete.resx">
+      <DependentUpon>UCDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCFTP.resx">
+      <DependentUpon>UCFTP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSTBupload.resx">
+      <DependentUpon>UCSTBupload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTembakSQL.resx">
+      <DependentUpon>UCTembakSQL.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\icons8-speed-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ftp-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-harddisk-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-upload-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-hygge-isometric-view-of-colleagues-working-and-talking-in-the-office.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secure login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indomaret.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-store-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-done-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cancel-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-no-synchronize-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-upload-to-the-cloud-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-access-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-downloads-folder-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-load-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-browse-folder-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-file-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-file-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sql-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-load-251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-question-mark-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-question-mark-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-question-mark-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exclamation-mark-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-question-mark-100 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-success-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cube-1s-200px.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-apps-100.ico" />
+    <None Include="Resources\icons8-tools-40.png" />
+    <None Include="Resources\icons8-reload-40.png" />
+    <None Include="Resources\icons8-program-40.png" />
+    <None Include="Resources\icons8-ipv6-40.png" />
+    <None Include="Resources\icons8-sql-64.png" />
+    <None Include="Resources\icons8-sql-40.png" />
+    <None Include="Resources\icons8-sql-301.png" />
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Syncfusion.Blazor.ProgressBar.26.2.11\build\Syncfusion.Blazor.ProgressBar.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Syncfusion.Blazor.ProgressBar.26.2.11\build\Syncfusion.Blazor.ProgressBar.props'))" />
+  </Target>
+</Project>

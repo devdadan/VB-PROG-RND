@@ -1,0 +1,86 @@
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\MyApps.exe
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\MyApps.pdb
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\MyApps.xml
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\DevComponents.DotNetBar2.dll
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\FastColoredTextBox.dll
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\MySql.Data.dll
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\Newtonsoft.Json.dll
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\DevComponents.DotNetBar2.xml
+D:\PROGRAM VB\DS-Projek\MyApps\bin\Debug\Newtonsoft.Json.xml
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.vbproj.AssemblyReference.cache
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.Form1.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.FrmMain.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.FrmMessage.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.Resources.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.SplashScreen1.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.UCDelete.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.UCFTP.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.UCSTBupload.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.UCTembakSQL.resources
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.vbproj.GenerateResource.cache
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.vbproj.CoreCompileInputs.cache
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.vbproj.CopyComplete
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.exe
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.xml
+D:\PROGRAM VB\DS-Projek\MyApps\obj\Debug\MyApps.pdb
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\MyApps.exe
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\MyApps.pdb
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\MyApps.xml
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\MetroFramework.dll
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\Newtonsoft.Json.dll
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\DevComponents.DotNetBar2.xml
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\bin\Debug\Newtonsoft.Json.xml
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.vbproj.AssemblyReference.cache
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Form1.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Frmbukapass.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmDATA.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Frmftp.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmIP.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmMain.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmMessage.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Frmpass.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmProgram.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmTembak.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Frmutama.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.LoginForm1.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.Resources.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.SplashScreen1.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.UCDelete.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.UCFTP.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.UCSTBupload.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.UCTembakSQL.resources
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.vbproj.GenerateResource.cache
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.vbproj.CoreCompileInputs.cache
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.vbproj.CopyComplete
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.exe
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.xml
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.pdb
+D:\PROGRAM VB\DS-Projek\SQL\MyApps\obj\Debug\MyApps.FrmHome.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Form1.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Formbarcode.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Formdecryptpos.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Formposrt.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Formpscp.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Formtanya.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Frmbukapass.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmDATA.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Frmftp.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmHome.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmIP.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmMain.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmMessage.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Frmotp.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Frmpass.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmProgram.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.FrmTembak.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Frmutama.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.LoginForm1.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.Resources.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.SplashScreen1.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.UCDelete.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.UCFTP.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.UCSTBupload.resources
+C:\Dadan\VB\MyApps\obj\Debug\ProgRND.UCTembakSQL.resources
+C:\Dadan\VB\MyApps\obj\Debug\MyApps.vbproj.GenerateResource.cache
+C:\Dadan\VB\MyApps\obj\Debug\MyApps.vbproj.CoreCompileInputs.cache
